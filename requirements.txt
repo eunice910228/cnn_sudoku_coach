@@ -1,0 +1,8 @@
+# 推理引擎(reasoning/、demo.py)零依賴,純標準函式庫
+# 以下僅感知模組與完整管線需要(建議直接用 Google Colab)
+numpy
+opencv-python
+tensorflow
+pillow
+matplotlib          # experiments/ 出圖
+scikit-learn        # experiments/extras.py 的 t-SNE

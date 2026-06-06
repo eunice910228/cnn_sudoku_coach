@@ -1,0 +1,26 @@
+# 虛擬環境(Colab 自己有 TensorFlow,不用上傳)
+venv*/
+.venv/
+env/
+
+# Python 快取
+__pycache__/
+*.pyc
+*.pyo
+
+# 訓練出來的模型(Colab 會重新訓練)
+*.h5
+
+# 生成物(Colab 會重新產生)
+experiments/figures/
+learn/figures/
+*.pptx
+puzzle*.txt
+
+# 雜項
+.ipynb_checkpoints/
+.DS_Store
+bug/
+.claude/
+
+# 保留:01.jpg、labels/、所有 .py、README/REPORT、requirements.txt、.ipynb
